@@ -1,0 +1,243 @@
+html {
+    position: relative;
+    min-height: 100%;
+    background-color: #009900;
+}
+
+body {
+    background-color: #009900;
+    margin: 0 0 40px;
+    /* bottom = footer height */
+    padding: 0px;
+}
+
+header{
+    color: yellow;
+    /*border: 1px solid yellow;*/
+    text-align: center;
+    padding: 10px;
+}
+
+.title{
+    font-size: 40px;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    font: normal 41px/normal 'Merriweather', serif;
+    color: rgba(255,255,255,1);
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #7700ff , 0 0 70px #7700ff , 0 0 80px #ff002e , 0 0 100px #7700ff ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.title:hover {
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+}
+
+
+.console{
+    position: relative;
+    width: 350px;
+    color: red;
+    /*border: 1px solid red*/
+    margin: 10px auto;
+}
+
+.console a{
+    position: relative;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: rgba(219,87,5,1);
+    font-weight: 700;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 2em;
+    display: block;
+    padding: 4px;
+    border-radius: 8px;
+    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    margin: 20px auto;
+    width: 130px;
+    text-align: center;
+
+    -moz-transition: all .1s ease;
+    transition: all .1s ease;
+}
+
+.console a:active {
+    -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+}
+
+#start {
+    float: left;
+}
+
+#reset {
+    float: right;
+}
+
+.centered{
+    font: normal 21px/normal 'Merriweather', serif;
+    overflow: hidden;
+    position: relative;
+    color: blue;
+    /*border: 1px solid blue;*/
+    height: 450px;
+    width: 650px;
+    margin: 10px auto;
+    padding-top: 20px;
+}
+
+.results{
+    color: green;
+    /*border: 1px solid green;*/
+}
+
+.dealer{
+    /*font-size: 25px;*/
+    color: black;
+    /*border: 1px solid black;*/
+    text-align: center;
+}
+
+.dealers_cards, .players_cards{
+    /*width: 600px;*/
+    overflow: hidden;
+    margin: auto;
+    display: inline-block;
+    padding: 10px 40px 10px 10px;
+    color: grey;
+    /*height: 110px;*/
+    /*border: 1px solid yellow;*/
+
+}
+
+.results ul{
+    /*border: 1px solid red;*/
+    position: relative;
+    display: inline-block;
+    margin: auto;
+}
+
+.results li{
+    position: relative;
+    display: block;
+    width: 30px;
+    float: left;
+}
+
+.results img{
+    /*width: 10%;*/
+    height: 90px;
+    display: block;
+}
+
+.player{
+    margin-top: 15px;
+    /*font-size: 25px;*/
+    color: white;
+    /*border: 1px solid white;*/
+    text-align: center;
+}
+
+.players_cards{
+    /*padding: 10px;*/
+    color: purple;
+    /*border: 1px solid purple;*/
+}
+
+.pscore{
+    position: relative;
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    margin: auto;
+    bottom: 140px;
+    border-radius: 4px;
+    -moz-box-shadow: 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 25px rgba(0,0,0,.7);
+
+}
+
+.pscore p{
+    padding-top: 5px;
+    text-align: center;
+    color: yellow;
+    font-weight: 700;
+    font-family: ;
+    font-size: 1.2em;
+}
+
+.gameConsole{
+    position: relative;
+    width: 250px;
+    color: red;
+    /*border: 1px solid red*/
+    margin: auto;
+    bottom: 130px;
+}
+
+.gameConsole a{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    background-color: rgba(255,208,0,1);
+    font-weight: 700;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 1.2em;
+    display: block;
+    padding: 15px 10px 0px 10px;
+    border-radius: 20px;
+    -moz-box-shadow: 0px 9px 0px rgba(219,179,2,1), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px rgba(219,179,2,1), 0px 9px 25px rgba(0,0,0,.7);
+    margin: 10px auto;
+    width: 50px;
+    height: 35px;
+    text-align: center;
+
+    -moz-transition: all .1s ease;
+    transition: all .1s ease;
+}
+
+.gameConsole a:active {
+    -moz-box-shadow: 0px 3px 0px rgba(219,179,2,1), 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px rgba(219,179,2,1), 0px 3px 6px rgba(0,0,0,.9);
+}
+
+#hit {
+    float: left;
+}
+
+#stand {
+    float: right;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: grey;
+}
+
+footer p{
+    padding: 10px 10px 10px 10px;
+}
+
+/*#theBackImg {
+    transform: rotate(90deg);
+}*/
+
+
+
